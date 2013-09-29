@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hfucsharp", "hfucsharp\hfucsharp.csproj", "{17A53B60-48C9-4A84-82BD-3384EC59FF88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MakeFormatStringVariable", "001_MakeFormatStringVariable\001_MakeFormatStringVariable.csproj", "{83E66178-29BE-4D57-8119-F08E24CEB0CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17A53B60-48C9-4A84-82BD-3384EC59FF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17A53B60-48C9-4A84-82BD-3384EC59FF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17A53B60-48C9-4A84-82BD-3384EC59FF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17A53B60-48C9-4A84-82BD-3384EC59FF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
