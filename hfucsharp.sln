@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MakeFormatStringVariable", "001_MakeFormatStringVariable\001_MakeFormatStringVariable.csproj", "{83E66178-29BE-4D57-8119-F08E24CEB0CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ArrayDecendingSort", "002_ArrayDecendingSort\002_ArrayDecendingSort.csproj", "{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E66178-29BE-4D57-8119-F08E24CEB0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
