@@ -1,26 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Fahrzeugverwaltung
+﻿namespace Fahrzeugverwaltung
 {
-
     class Auto : BaseFahrzeuge
-    { 
-        public string anzAirBags;
-        public string innenFarbe;
-        public string klimaAnlage;
+    {
+        public string AnzAirBags { get; set; }
+        public string InnenFarbe { get; set; }
+        public string KlimaAnlage { get; set; }
 
-        public Auto ()
+
+        public Auto()
 	    {
-            fahrzeugArt = "AUTO";
-            anzAirBags = userIn("Bitte geben Sie die Anzahl Air-Bags ein:", "");
-            innenFarbe = userIn("Bitte geben Sie die Innenfarbe ein:", "");
-           
-            klimaAnlage = userIn("Hat dieses Fahrzeug eine Klimaanlage?:", "");        
+            FahrzeugArt = "AUTO";
+            AnzAirBags = UserIn("Bitte geben Sie die Anzahl Air-Bags ein:", "");
+            InnenFarbe = UserIn("Bitte geben Sie die Innenfarbe ein:", "");
+            KlimaAnlage = UserIn("Hat dieses Fahrzeug eine Klimaanlage?:", "");        
         }
-
-      
     }
 }

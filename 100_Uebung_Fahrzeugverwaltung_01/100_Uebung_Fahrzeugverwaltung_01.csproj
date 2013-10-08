@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>94af152e-eca2-43f9-b0d5-16b915eca63f</ProjectGuid>
+    <ProjectGuid>{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_100_Uebung_Fahrzeugverwaltung_01</RootNamespace>
-    <AssemblyName>_100_Uebung_Fahrzeugverwaltung_01</AssemblyName>
+    <AssemblyName>100_Uebung_Fahrzeugverwaltung_01</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auto.cs" />
+    <Compile Include="BaseFahrzeuge.cs" />
+    <Compile Include="Lieferwagen.cs" />
+    <Compile Include="Motorrad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

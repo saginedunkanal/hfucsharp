@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MakeFormatStringVariabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ArrayDecendingSort", "002_ArrayDecendingSort\002_ArrayDecendingSort.csproj", "{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_Uebung_Fahrzeugverwaltung_01", "100_Uebung_Fahrzeugverwaltung_01\100_Uebung_Fahrzeugverwaltung_01.csproj", "{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07994C9-BF9F-4517-8572-DDAA3D79C0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CAF91-1F1E-48FF-B48F-2AEE96A149FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

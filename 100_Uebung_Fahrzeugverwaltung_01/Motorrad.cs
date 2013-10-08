@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Fahrzeugverwaltung
+﻿namespace Fahrzeugverwaltung
 {
     class Motorrad : BaseFahrzeuge
     {
         //public string fzArt = "MOTORRAD";
-        public string extras;
-        public string tankVolumen;
+        public string Extras { get; set; }
+        public string TankVolumen { get; set; }
 
-        public Motorrad ()
-	{
-        fahrzeugArt = "MOTORRAD";
-        extras = userIn("Bitte geben Sie die Extras ein:", "");
-        tankVolumen = userIn("Bitte geben Sie das Tankvolumen ein:", "");
-	}
 
+        public Motorrad()
+        {
+            FahrzeugArt = "MOTORRAD";
+            Extras = UserIn("Bitte geben Sie die Extras ein:", "");
+            TankVolumen = UserIn("Bitte geben Sie das Tankvolumen ein:", "");
+        }
     }
 }
